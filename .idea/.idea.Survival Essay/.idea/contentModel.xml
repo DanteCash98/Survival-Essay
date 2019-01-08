@@ -215,12 +215,16 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="EnemyLogic.cs" t="Include" />
+          <e p="AttackData.cs" t="Include" />
+          <e p="BuyWeapon.cs" t="Include" />
+          <e p="EnemyEntity.cs" t="Include" />
+          <e p="Entity.cs" t="Include" />
           <e p="EntitySpawner.cs" t="Include" />
           <e p="MeleeObject.cs" t="Include" />
           <e p="MouseListener.cs" t="Include" />
-          <e p="PlayerEconomy.cs" t="Include" />
+          <e p="PlayerEntity.cs" t="Include" />
           <e p="PlayerMove.cs" t="Include" />
+          <e p="TextUpdater.cs" t="Include" />
           <e p="WorldItemrotation.cs" t="Include" />
         </e>
       </e>

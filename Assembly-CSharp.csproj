@@ -103,12 +103,16 @@
     <Compile Include="Assets\Asset Imports\SKJ Particle Tutorial\Plugins\Effect\Script\EffectShaderPropertyStr.cs" />
     <Compile Include="Assets\Asset Imports\SKJ Particle Tutorial\Plugins\Effect\Script\RenderEffect.cs" />
     <Compile Include="Assets\Asset Imports\SKJ Particle Tutorial\Plugins\Effect\Script\TransformExtension.cs" />
-    <Compile Include="Assets\Scripts\EnemyLogic.cs" />
+    <Compile Include="Assets\Scripts\AttackData.cs" />
+    <Compile Include="Assets\Scripts\BuyWeapon.cs" />
+    <Compile Include="Assets\Scripts\EnemyEntity.cs" />
+    <Compile Include="Assets\Scripts\Entity.cs" />
     <Compile Include="Assets\Scripts\EntitySpawner.cs" />
     <Compile Include="Assets\Scripts\MeleeObject.cs" />
     <Compile Include="Assets\Scripts\MouseListener.cs" />
-    <Compile Include="Assets\Scripts\PlayerEconomy.cs" />
+    <Compile Include="Assets\Scripts\PlayerEntity.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\TextUpdater.cs" />
     <Compile Include="Assets\Scripts\WorldItemRotation.cs" />
     <None Include="Assets\Asset Imports\NatureStarterKit2\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\Asset Imports\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
@@ -208,14 +212,8 @@
     <Reference Include="Unity.Timeline">
       <HintPath>C:/Users/dante/Survival Essay/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/dante/Survival Essay/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/dante/Survival Essay/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/dante/Survival Essay/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity 2019.1.0a11/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -402,18 +400,6 @@
     </Reference>
     <Reference Include="UnityEngine.Networking">
       <HintPath>C:/Program Files/Unity 2019.1.0a11/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/dante/Survival Essay/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/dante/Survival Essay/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/dante/Survival Essay/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/dante/Survival Essay/Library/PackageCache/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity 2019.1.0a11/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
